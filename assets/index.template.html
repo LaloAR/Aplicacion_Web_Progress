@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>A basic webpage</title>
+</head>
+<body>
+  <div class="menu">
+    <img src="./public/images/menu.svg" alt="">
+  </div>
+  <div class="menu-screen">
+    <a href="#" class="close">
+      <img src="./public/images/cancel.svg" alt="Cerrar el menú">
+    </a>
+    <nav>
+      <a href="#home">
+        <span class="main">Home</span>
+        <span>Acerca de nosotros</span>
+      </a>
+      <a href="#about">
+        <span class="main">Productos</span>
+        <span>Productos</span>
+      </a>
+      <a href="#mission">
+        <span class="main">Misión</span>
+        <span>Qué nos motiva</span>
+      </a>
+      <a href="#map">
+        <span class="main">Localización</span>
+        <span>Mapa</span>
+      </a>
+      <a href="#social">
+        <span class="main">Contacto</span>
+        <span>Háblanos</span>
+      </a>
+    </nav>
+  </div>
+  <section id="home">
+    <div class="grid">
+      <div class="container">
+        <div class="grid-main-area">
+          <div class="text">
+            <h1>Espacio Lector</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta dignissimos itaque veniam placeat, rerum recusandae magnam nisi rem quos temporibus!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, accusamus?</p>
+            <a href="#" class="btn">Ver más</a>
+          </div>
+
+          <div class="image">
+            <figure>
+              <img src="./public/images/3.jpg" alt="Primera imagen">
+              <figcaption>Un lugar para leer</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="cover parallax">
+      <p>
+        Vas a enamorarte de este lugar
+        <span>Cuidamos cada detalle para que te sientas como en casa.</span>
+      </p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="grid-main-area slider">
+      <div class="text">
+        <div class="controls">
+          <img src="./public/images/next.svg" alt="Flecha a la izquierda" class="left-arrow">
+          <img src="./public/images/next.svg" alt="Flecha a la derecha" class="right-arrow">
+        </div>
+        <header>
+          <div id="slider-text-content">
+            <p id="slider-subtitle" class="separator">Platillos</p>
+            <h2 id="slider-title">Lorem ipsum.</h2>
+            <p id="slider-text">
+              Quod dignissimos totam, aut reiciendis! Veniam, magnam? Consequuntur in, soluta tempore laudantium enim, vel consectetur! Vitae totam non repudiandae officia, ipsam at.
+            </p>
+          </div>
+        </header>
+      </div>
+
+      <div class="image">
+        <img src="./public/images/2.jpg" alt="" id="slider-image">
+      </div>
+    </div>
+  </section>
+
+  <section id="mission">
+    <div class="grid full-height mission">
+      <div class="container">
+        <h1>Nuestra Misión</h1>
+
+        <figure>
+          <img src="./public/images/2.jpg" alt="Imagen de prueba" height="400">
+          <figcaption>Lorem ipsum dolor sit.</figcaption>
+        </figure>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus distinctio vel itaque, inventore dolore nam doloremque qui consequuntur sequi necessitatibus soluta voluptatibus molestiae illo id illum consectetur omnis iusto perspiciatis totam veritatis tenetur debitis? Velit sapiente dolores voluptatum minus doloremque natus delectus, repellat nulla modi totam amet, cumque ducimus quisquam ipsum perferendis. Sapiente neque consequatur ipsam voluptatum adipisci molestiae veniam est iure voluptatem sequi quae temporibus quidem a, facere quod, tenetur dolorem, nesciunt voluptas eos saepe doloremque. Dicta facilis libero totam nihil itaque fugit eius nam officia non eveniet corporis sequi, reprehenderit fuga, porro excepturi voluptates a molestias dolore blanditiis!</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ex dolore repellendus eveniet amet, cupiditate tenetur eius ullam quas dolores animi ipsum, officia possimus, magni. Excepturi libero animi, natus est.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="map">
+    <div id="mapa"></div>
+  </section>
+
+  <section id="social">
+    <div class="grid social">
+      <div class="container">
+        <p class="title">Contacto</p>
+        <a href="mailto:1a1insky06@gmail.com" class="btn">Mail</a>
+        <a href="#" class="btn">Twitter</a>
+        <a href="#" class="btn">Facebook</a>
+        <a href="#" class="btn">Youtube</a>
+      </div>
+    </div>
+  </section>
+
+  <script
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQJgnwZOF0uypDPLseHtA3UN31553Rxjc">
+
+  </script>
+</body>
+</html>
